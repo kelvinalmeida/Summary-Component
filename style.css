@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 375px;
-    height: 520px;
+    height: 560px;
     background-color: chartreuse;
     box-shadow: 10px 5px 30px rgb(206, 205, 205);
     border-radius: 15px;
@@ -35,7 +35,7 @@ body {
 
 .summary .buttom {
     background-color: white;
-    height: 22em;
+    height: 24em;
     border-radius: 0 0 15px 15px;
     display: flex;
     flex-direction: column;
@@ -105,16 +105,18 @@ body {
     flex-direction: column;
 }
 
-
 .summary .buttom .plan {
     justify-content: spa;
+    background-color: hsl(225, 100%, 97%);
+    width: 80%;
+    border-radius: 15px;
 }
 
 .summary .buttom .plan .price {
     flex-direction: column;
     align-items: center;
     width: 30%;
-    margin: 0 60px 0 0;
+    margin: 0px 60px 0 15px;
 }
 
 .summary .buttom .plan .price #anuual {
@@ -122,7 +124,7 @@ body {
 }
 
 .summary .buttom .plan button {
-    background-color: white;
+    background-color: hsl(225, 100%, 97%);
     border: none;
     cursor: pointer;
     font-weight: bold;
