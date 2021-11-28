@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summary Component</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="summary">
         <img src="src/images/illustration-hero.svg" alt="">
-        <div class="buttom"></div>
+        <div class="buttom">
+            <div id="one">
+                <h1>Order Symmary</h1>
+                <p>You can now listen to millions of songs, oudiobooks, and podcast on any device anywhere you like!</p>
+            </div>
+            <div id="two" class="plan">
+                <img src="src/images/icon-music.svg" alt="">
+                <div class="price">
+                    <span id="anuual">Annual plan</span>
+                    <span>$59.99/year</span>
+                </div>
+                <button>Change</button>
+            </div>
+            <div id="thre">
+                <button class="payment">Proceed to Payment</button>
+                <button class="cancel">Cancel Order</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
